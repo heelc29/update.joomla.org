@@ -1,0 +1,1 @@
+	<extension name="Joomla" element="joomla" type="file" version="{tag}" targetplatformversion="{from}" detailsurl="https://update.joomla.org/core/nightlies/next_{type}_extension.xml" />
