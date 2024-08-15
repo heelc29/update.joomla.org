@@ -2,30 +2,20 @@
 
 $version = [
     '4.4' => [
-        'tag'     => '4.4.3-rc1',
-        'sha256'  => '7caa7e90750667fb7acada74c906ec7191b2862b126772005d78806e51b3fe63',
-        'sha384'  => '5a48a33b740c24e749e7f95bd33ba0566b86692392dc28b3bb20f50014802ecf808e5df3235dabe0d6200d84a0ba7d72',
-        'sha512'  => '6f781d48fce7e1aa7a66c70d05a5b03a8cd556ec3a35744141f07c5176ac447e15a91800ddfe80a41d0ec73f450896efb06f1f059130655c4e2787820e9fd108',
+        'tag'     => '4.4.6-rc1',
+        'sha256'  => '28e1d4b01921025baeac36596f9d7a47cafcda3b9ee08ba835dd85d06859ec13',
+        'sha384'  => '0dd60c6806e8692c7a9063f43731465bf2cea14e7ec7019a50c64f40d5309bcca832f3cf0cbfb31fecbb200cef73dc3c',
+        'sha512'  => '2ab94d73df69340bb1c571beeb9b057e5b05796d09cb321e3dc53ee2b659773001b21c2e0677c1b700c53430cc0e6209b8b029d797a551a2354e10481508bf7d',
         'mysql'   => '5.6',
         'mariadb' => '10.1',
         'pgsql'   => '11.0',
         'php'     => '7.2.5',
     ],
-    '5.0' => [
-        'tag'     => '5.0.3-rc1',
-        'sha256'  => 'df05248db1bc270791ce8ea34178ae4dc9cf8f2edb8bba4b28cbaa6fe9b36b89',
-        'sha384'  => '70849de3ad4266232362781e264f6dbc2e8e475bf9b3ef276499fd5bbb8835577d2be412551bf8293a33cf0545c5a02d',
-        'sha512'  => '903ad1da6164626e97fadb95b47f3a7fe8a9f5ba8506de6c4329e0e156df8e3fc3a6263eda8a2b375809691f2d9cc902f264489bb89c4c8d1bbd40be99cbe280',
-        'mysql'   => '8.0.13',
-        'mariadb' => '10.4.0',
-        'pgsql'   => '12.0',
-        'php'     => '8.1.0',
-    ],
     '5.1' => [
-        'tag'     => '5.1.0-alpha4',
-        'sha256'  => '0b6dd460618d777b86eddabe223eb7853763280c824577d087818a41d1008852',
-        'sha384'  => '032523dab46e85dcf18e968b852e1499e729a6910a4c9b1eb19972090baac5cc708fe276a1dd41e9b2b2f4c0b4a7e3a3',
-        'sha512'  => 'bb9c7cfa2317023001f8635c23b7f3db9786cc300ff639845f4a9faf3c3b8eac8d2854530bbde831b80164ec57b0721508d0ab8c47057e0dfedc0d4b6998b731',
+        'tag'     => '5.1.2-rc2',
+        'sha256'  => '899ba6551a56e7754c08f969643ed663e777622bf859d9a91e9863bd6778fd97',
+        'sha384'  => '2dea7b10db57c392f992868f474928777e7204b7eca0cb087702779e20d5a6431a28142588179548d0ff5ac433404a9d',
+        'sha512'  => '9662b2827e4488ad4e45c91583958a9ac8c3362baefe33d5da8b50b4f20fb277586de8eccfd7de4540da57f95f988bb4e41287fbbe3c21116590a900566199ce',
         'mysql'   => '8.0.13',
         'mariadb' => '10.4.0',
         'pgsql'   => '12.0',
@@ -52,13 +42,6 @@ $paths = [
             '4.4',
         ],
         'to'      => '4.4',
-    ],
-    [
-        'from'    => '5.0',
-        'fromext' => [
-            '5.0',
-        ],
-        'to'      => '5.0',
     ],
     [
         'from'    => '5.0.[1234]',
